@@ -1,0 +1,226 @@
+:root {
+    --main-font: "Roboto", sans-serif;
+    --primery-text-color: #2E2F42;
+    --second-text-color: #434455;
+    --accent-color: #E7E9FC; }
+        
+    body {
+    font-family: var(--main-font), sans-serif;
+    background-color: #fff;
+    color: var(--primery-text-color);
+    letter-spacing: -0.015em;
+    }
+        
+    ul {
+    list-style: none;
+    }
+        
+    .logo {
+    font-family: "Raleway";
+    color:#4D5AE5;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.14;
+    }
+        
+    .logo-second {
+    color: #2E2F42;
+    font-family: "Raleway";
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.14;
+    }
+    
+    
+    /* site-nav */
+        
+    .site-nav .link:hover,
+    .site-nav .link:focus {
+    color: blue;
+    }
+        
+    .site-nav .link {
+    font-family: inherit;
+    color: var(--primery-text-color);
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.28;
+    }
+    
+    .auth-nav .link {
+    color: var(--second-text-color);
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.5;
+    }
+        
+    .auth-nav .link:hover, 
+    .auth-nav .link:focus {
+    color: blue;
+    } 
+        
+    /* hero */
+        
+    .hero {
+    background-color: var(--primery-text-color);
+    }
+        
+    .hero-title {
+    font-family: inherit;
+    color: var(--accent-color);
+    font-weight: 600;
+    font-size: 56px;
+    font-size: 0.9;
+    text-align: center;
+    }
+        
+    .modal-btn {
+    color: #fff;
+    background-color: #4D5AE5;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.1;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer; 
+    border: none;
+    } 
+        
+    .modal-btn:hover,
+    .modal-btn:focus {
+    background-color: #fff;
+    color: #4D5AE5;
+    }
+        
+        
+    /* секция BOX преимущества */
+        
+    .title-none {
+    overflow: hidden;
+    } 
+        
+    .visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    overflow: hidden;
+    }
+        
+    .box-title {
+    color: var(--primery-text-color);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    }
+        
+    .box-text {
+    color: var(--second-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    }
+        
+    /* Work-people */
+        
+    .work-block {
+    background-color: #E5E5E5;
+    }
+        
+    .pictures {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 0.9;
+    text-align: center;
+    }
+        
+    .work-tetle {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 0.9;
+    text-align: center;
+    }
+        
+    .work-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0.9;
+    text-align: center;
+    }
+    
+    /* Footer */
+        
+    .logo-block {
+    background-color: #2E2F42;
+    }
+        
+    .copy-text {
+    color: var(--accent-color); 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.28;
+    }
+    
+    /* Portfolio */
+        
+    .logo-block .second {
+    color: #fff;
+    }
+        
+    /* menu buttons */
+        
+    .menu-btn {
+    color: #4D5AE5;
+    background-color: #F4F4FD;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.1;
+    letter-spacing: 0.3em;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    }
+        
+    .menu-btn:hover,
+    .menu-btn:focus {
+    background-color: #4D5AE5;
+    color: #F4F4FD;
+    }
+        
+    /* section pictures-fotos */
+        
+    .presentation-blok {
+    font-family: inherit;
+    text-decoration: none;
+    }
+        
+    .presentation-title {
+    font-family: inherit;
+    color: var(--primery-text-color);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1;
+    }
+        
+    .presentation-text {
+    font-family: inherit;
+    font-weight: 400;
+    font-style: normal;
+    }
+        
+    .presentation-subject {
+    color: #F4F4FD;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    }
