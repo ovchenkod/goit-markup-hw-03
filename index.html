@@ -10,54 +10,59 @@
     <link rel="stylesheet" href="./css/styles.css"/>
   </head>
   <body>
-    <header>
-      <nav>
+    <header class="header-page">
+      <div class="container header-nav">
+      <nav class="header-main">
         <a href="./index.html" class="logo">Web<span class="logo-second">Studio</span></a>
         <ul class="site-nav">
-          <li><a class="link" href="">Studio</a></li>
-          <li><a class="link" href="./portfolio.html">Portfolio</a></li>
-          <li><a class="link" href="">Contacts</a></li>
+          <li class="item"><a class="link" href="">Studio</a></li>
+          <li class="item"><a class="link" href="./portfolio.html">Portfolio</a></li>
+          <li class="item"><a class="link" href="">Contacts</a></li>
         </ul>
       </nav>
       <ul class="auth-nav">
-        <li>
+        <li class="item">
           <a class="link" href="info@devstudio.com">info@devstudio.comm</a>
         </li>
-        <li>
+        <li class="item">
           <a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a>
         </li>
       </ul>
+    </div>
     </header>
     <main>
       <section class="hero">
+        <div class="container">
         <h1 class="hero-title">Effective Solutions for Your Business</h1>
         <button class="modal-btn" type="button">Order Service</button>
+      </div>
       </section>
       <section class="box">
+        <div class="container">
         <h2 class="title-none visually-hidden">company_advantages</h2>
-        <ul>
-          <li>
+        <ul class="box">
+          <li class="box-item">
             <h3 class="box-title">Strategy</h3>
             <p class="box-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
+          <li class="box-item">
             <h3 class="box-title">Punctuality</h3>
             <p class="box-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
+          <li class="box-item">
             <h3 class="box-title">Diligence</h3>
             <p class="box-text">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
+          <li class="box-item">
             <h3 class="box-title">Technologies</h3>
             <p class="box-text">
               Design practice focused on digital experiences. We bring forth a
@@ -65,21 +70,25 @@
             </p>
           </li>
         </ul>
+      </div>
       </section>
       <section>
-        <h2 class="pictures">What are we doing</h2>
-        <ul>
-          <li><img src="./images/monitor.jpg" alt="Monitor" width="240" /></li>
-          <li>
+        <div class="container">
+        <h2 class="pictures centered">What are we doing</h2>
+        <ul class="pictures-list">
+          <li class="pictures-item"><img src="./images/monitor.jpg" alt="Monitor" width="240" /></li>
+          <li class="pictures-item">
             <img src="./images/slide.jpg" alt="screen_layers" width="240" />
           </li>
-          <li><img src="./images/phone.jpg" alt="phone" width="240" /></li>
+          <li class="pictures-item"><img src="./images/phone.jpg" alt="phone" width="240" /></li>
         </ul>
+      </div>
       </section>
       <section class="work-block">
+        <div class="container">
         <h2 class="pictures">Our Team</h2>
-        <ul>
-          <li>
+        <ul class="work-list">
+          <li class="work-item">
             <img
               src="./images/designer.jpg"
               alt="photo desingner"
@@ -88,7 +97,7 @@
             <h3 class="work-tetle">Mark Guerrero</h3>
             <p class="work-text">Product Designer</p>
           </li>
-          <li>
+          <li class="work-item">
             <img
               src="./images/developer.jpg"
               alt="photo developer"
@@ -97,7 +106,7 @@
             <h3 class="work-tetle">Tom Ford</h3>
             <p class="work-text">Frontend Developer</p>
           </li>
-          <li>
+          <li class="work-item">
             <img
               src="./images/marketing.jpg"
               alt="photo markeing"
@@ -106,7 +115,7 @@
             <h3 class="work-tetle">Camila Garcia</h3>
             <p class="work-text">Marketing</p>
           </li>
-          <li>
+          <li class="work-item">
             <img
               src="./images/designerui.jpg"
               alt="photo designer2"
@@ -116,15 +125,18 @@
             <p class="work-text">UI Designer</p>
           </li>
         </ul>
+      </div>
       </section>
     </main>
     <footer>
+      <div class="container">
       <div class="logo-block">
         <a href="./index.html" class="logo">Web<span class="second">Studio</span></a>
         <p class="copy-text">Increase the flow of customers and sales for your business with
           digital marketing & growth solutions.
         </p>
       </div>
+    </div>
     </footer>
   </body>
 </html>
