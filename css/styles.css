@@ -306,11 +306,11 @@ padding-bottom: 32px;
     
     .logo-block {
     background-color: #2E2F42;
-    /* height: 310px; */
-    /* width: 1158px;; */
+    height: 310px;
+    width: 1158px;;
     padding: 100px 200px 130px 0;
-    /* padding-left: 56px; */
-    /* margin: 0 auto; */
+    padding-left: 56px;
+    margin: 0 auto;
 }
         
     .copy-text {
@@ -397,6 +397,10 @@ text-decoration: none;
 .presentation-list {
 width: 360px;
 border:  1px solid #F4F4FD;
+}
+
+.presentation-list:nth-child(3n) {
+margin-right: 0;
 }
 
 .presentation-title {
