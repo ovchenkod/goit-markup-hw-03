@@ -44,8 +44,8 @@ margin: 0;
 }
 
 .section {
-/* padding-top: 120px; */
-/* padding-bottom: 72px; */
+padding-top: 120px;
+padding-bottom: 72px;
 }
 
 .logo {
@@ -257,10 +257,7 @@ line-height: 1.2;
     }
         
     /* Work-people */
-        
-.work-block {
-background-color: #E5E5E5;
-    }
+     
 
     img {
 display: block;
@@ -288,21 +285,24 @@ margin-top: 72px;
     
 /* .pictures-item {
         /* margin-right: 24px; */
- */
-
     /* work */
 
+.work-block {
+    /* display: flex;
+    gap: 24px; */
+    background-color: #E5E5E5;
+}
+
 .work-list {
-    display: inline-block;
+display: flex;
 flex-direction: row;
-    gap: 24px;
-    padding-top: 72px;
-    padding-bottom: 120px;
+gap: 24px;
+padding-top: 72px;
+padding-bottom: 120px;
 padding-left: 0;
 }
 
 .work-shadow {
-    
     width: 264px;
     background-color: #fff;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -447,18 +447,15 @@ margin-right: 0;
 .presentation-title {
     margin-top: 0;
 margin-bottom: 8px;
-padding-top: 32px;
-padding-left:  16px;
 font-family: inherit;
 color: var(--primery-text-color);
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
+
     }
         
 .presentation-text {
-    padding-bottom: 32px;
-padding-left:  16px;
 font-family: inherit;
 font-weight: 400;
 font-style: normal;
