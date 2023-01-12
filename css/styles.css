@@ -159,15 +159,6 @@ margin-left: auto;
 padding-top: 188px; 
 padding-bottom: 188px;
 text-align: center;
-width: 1440px;
-height: 600px;
-margin-left: auto;
-margin-right: auto;
-background-color: #2E2F42; 
-background-image: linear-gradient (  rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)) url(../images/people-office.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
 }
 
 
